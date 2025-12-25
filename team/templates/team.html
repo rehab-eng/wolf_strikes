@@ -12,80 +12,105 @@
 </section>
 
 <section class="container">
-    <div class="team-grid">
-
-        <!-- Team Member Card 1: Amal -->
-        <div class="team-card">
-            <div class="team-card__image-container">
-                <!-- Updated Image Path -->
-                <img src="{% static 'images/team/amal.jpeg' %}" alt="Amal Al-Waar">
-            </div>
-            <div class="team-card__content">
-                <h3 class="team-card__name">Amal Al-Waar</h3>
-                <p class="team-card__role">{% trans "Team Founder" %}</p>
-                <p class="team-card__bio">
-                    {% trans "An ambitious and young founder with strong skills in leadership and youth project management." %}
-                </p>
-                <div class="team-card__skills">
-                    <span>{% trans "Leadership" %}</span>
-                    <span>{% trans "Creativity" %}</span>
-                    <span>{% trans "Organization" %}</span>
-                </div>
-                <div class="team-card__social">
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Team Member Card 2: Mohammed -->
-        <div class="team-card">
-            <div class="team-card__image-container">
-                <!-- Updated Image Path -->
-                <img src="{% static 'images/team/mohammed.jpeg' %}" alt="Mohammed Salah">
-            </div>
-            <div class="team-card__content">
-                <h3 class="team-card__name">Mohammed Salah</h3>
-                <p class="team-card__role">{% trans "Head of Programming" %}</p>
-                <p class="team-card__bio">
-                    {% trans "An expert programmer leading the development department, skilled in software development and problem-solving." %}
-                </p>
-                <div class="team-card__skills">
-                    <span>{% trans "Programming" %}</span>
-                    <span>{% trans "Web Dev" %}</span>
-                    <span>{% trans "Problem-Solving" %}</span>
-                </div>
-                <div class="team-card__social">
-                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+    <div class="team-grid profile-grid">
+        <div class="pc-card-wrapper" data-profile-card>
+            <div class="pc-behind"></div>
+            <div class="pc-card-shell">
+                <section class="pc-card">
+                    <div class="pc-inside">
+                        <div class="pc-shine"></div>
+                        <div class="pc-glare"></div>
+                        <div class="pc-content pc-avatar-content">
+                            <img class="avatar" src="{% static 'images/team/amal.jpeg' %}" alt="Amal Al-Waar" loading="lazy">
+                            <div class="pc-user-info">
+                                <div class="pc-user-details">
+                                    <div class="pc-mini-avatar">
+                                        <img src="{% static 'images/team/amal.jpeg' %}" alt="Amal Al-Waar" loading="lazy">
+                                    </div>
+                                    <div class="pc-user-text">
+                                        <div class="pc-handle">@amal</div>
+                                        <div class="pc-status">{% trans "Leadership" %}</div>
+                                    </div>
+                                </div>
+                                <button class="pc-contact-btn" type="button" data-contact-url="{% url 'contact:contact' %}">{% trans "Contact" %}</button>
+                            </div>
+                        </div>
+                        <div class="pc-content">
+                            <div class="pc-details">
+                                <h3>Amal Al-Waar</h3>
+                                <p>{% trans "Team Founder" %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
 
-        <!-- Team Member Card 3: Saeed -->
-        <div class="team-card">
-            <div class="team-card__image-container">
-                <!-- Updated Image Path -->
-                <img src="{% static 'images/team/saeed.jpeg' %}" alt="Saeed">
-            </div>
-            <div class="team-card__content">
-                <h3 class="team-card__name">Saeed</h3>
-                <p class="team-card__role">{% trans "Head of Media" %}</p>
-                <p class="team-card__bio">
-                    {% trans "A creative media specialist, skilled in content creation and managing the team's visual identity." %}
-                </p>
-                <div class="team-card__skills">
-                    <span>{% trans "Design" %}</span>
-                    <span>{% trans "Editing" %}</span>
-                    <span>{% trans "Photography" %}</span>
-                </div>
-                <div class="team-card__social">
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
-                </div>
+        <div class="pc-card-wrapper" data-profile-card>
+            <div class="pc-behind"></div>
+            <div class="pc-card-shell">
+                <section class="pc-card">
+                    <div class="pc-inside">
+                        <div class="pc-shine"></div>
+                        <div class="pc-glare"></div>
+                        <div class="pc-content pc-avatar-content">
+                            <img class="avatar" src="{% static 'images/team/mohammed.jpeg' %}" alt="Mohammed Salah" loading="lazy">
+                            <div class="pc-user-info">
+                                <div class="pc-user-details">
+                                    <div class="pc-mini-avatar">
+                                        <img src="{% static 'images/team/mohammed.jpeg' %}" alt="Mohammed Salah" loading="lazy">
+                                    </div>
+                                    <div class="pc-user-text">
+                                        <div class="pc-handle">@mohammed</div>
+                                        <div class="pc-status">{% trans "Programming" %}</div>
+                                    </div>
+                                </div>
+                                <button class="pc-contact-btn" type="button" data-contact-url="{% url 'contact:contact' %}">{% trans "Contact" %}</button>
+                            </div>
+                        </div>
+                        <div class="pc-content">
+                            <div class="pc-details">
+                                <h3>Mohammed Salah</h3>
+                                <p>{% trans "Head of Programming" %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
 
+        <div class="pc-card-wrapper" data-profile-card>
+            <div class="pc-behind"></div>
+            <div class="pc-card-shell">
+                <section class="pc-card">
+                    <div class="pc-inside">
+                        <div class="pc-shine"></div>
+                        <div class="pc-glare"></div>
+                        <div class="pc-content pc-avatar-content">
+                            <img class="avatar" src="{% static 'images/team/saeed.jpeg' %}" alt="Saeed" loading="lazy">
+                            <div class="pc-user-info">
+                                <div class="pc-user-details">
+                                    <div class="pc-mini-avatar">
+                                        <img src="{% static 'images/team/saeed.jpeg' %}" alt="Saeed" loading="lazy">
+                                    </div>
+                                    <div class="pc-user-text">
+                                        <div class="pc-handle">@saeed</div>
+                                        <div class="pc-status">{% trans "Media" %}</div>
+                                    </div>
+                                </div>
+                                <button class="pc-contact-btn" type="button" data-contact-url="{% url 'contact:contact' %}">{% trans "Contact" %}</button>
+                            </div>
+                        </div>
+                        <div class="pc-content">
+                            <div class="pc-details">
+                                <h3>Saeed</h3>
+                                <p>{% trans "Head of Media" %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </div>
 </section>
 {% endblock %}

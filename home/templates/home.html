@@ -6,8 +6,15 @@
 {% block content %}
 <!-- ======================= Hero Section ======================= -->
 <section class="hero">
+    <div class="hero-lightning" aria-hidden="true">
+        <canvas class="lightning-container" data-hue="220" data-x-offset="0" data-speed="1" data-intensity="1" data-size="1"></canvas>
+    </div>
     <div class="hero-container container">
         <div class="hero-content">
+            {% get_current_language as LANGUAGE_CODE %}
+            <div class="hero-greeting text-rotate" data-rotate-interval="2000" data-rotate-texts="{% if LANGUAGE_CODE == 'ar' %}مرحبا بكم في موقعنا{% else %}Welcome to our website{% endif %}">
+                {% if LANGUAGE_CODE == 'ar' %}مرحبا بكم في موقعنا{% else %}Welcome to our website{% endif %}
+            </div>
             <h1 id="typing-title" data-text="Wolf Strikes"></h1>
             <p class="hero-subtitle">{% trans "Innovative Robotics Team Pushing the Boundaries of Technology" %}</p>
             <div class="cta-buttons">
@@ -16,7 +23,7 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="{% static 'images/hero-robot.png' %}" alt="Hero Robot" class="robot-image">
+            <img src="{% static 'images/hero-robot-white.svg' %}" alt="Friendly Robot" class="robot-image robot-image--white">
         </div>
     </div>
 </section>

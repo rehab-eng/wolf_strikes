@@ -1,6 +1,6 @@
 {% load static i18n %}
 <!DOCTYPE html>
-<html lang="{{ request.LANGUAGE_CODE }}" data-theme="dark">
+<html lang="{{ request.LANGUAGE_CODE }}" data-theme="dark" dir="{% if request.LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +9,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
+
     <!-- The Critical Fix -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}?v=1.1">
-
 </head>
 <body>
     <header class="header" id="header">
         <nav class="nav container">
             <a href="{% url 'home:home' %}" class="nav__logo">Wolf Strikes</a>
             <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    {% get_current_language as LANGUAGE_CODE %}
-                    <li>
-                        <a href="{% url 'home:home' %}" class="nav__link">
-                            {% if LANGUAGE_CODE == 'ar' %}الرئيسية{% else %}Home{% endif %}
-                        </a>
-                    </li>
-                    <li><a href="{% url 'about:about' %}" class="nav__link">{% trans "About" %}</a></li>
-                    <li><a href="{% url 'projects:projects' %}" class="nav__link">{% trans "Projects" %}</a></li>
-                    <li><a href="{% url 'team:team' %}" class="nav__link">{% trans "Team" %}</a></li>
-                    <li><a href="{% url 'contact:contact' %}" class="btn btn-primary">{% trans "Contact Us" %}</a></li>
-                </ul>
+                <div class="gooey-nav-container" data-gooey-nav data-particle-count="15" data-particle-distances="90,10" data-particle-r="100" data-animation-time="600" data-time-variance="300">
+                    <nav aria-label="Primary">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="{% url 'home:home' %}" class="nav__link">{% trans "Home" %}</a></li>
+                            <li class="nav__item"><a href="{% url 'about:about' %}" class="nav__link">{% trans "About" %}</a></li>
+                            <li class="nav__item"><a href="{% url 'projects:projects' %}" class="nav__link">{% trans "Projects" %}</a></li>
+                            <li class="nav__item"><a href="{% url 'team:team' %}" class="nav__link">{% trans "Team" %}</a></li>
+                            <li class="nav__item"><a href="{% url 'contact:contact' %}" class="nav__link">{% trans "Contact" %}</a></li>
+                        </ul>
+                    </nav>
+                    <span class="effect filter" aria-hidden="true"></span>
+                    <span class="effect text" aria-hidden="true"></span>
+                </div>
             </div>
             <div class="nav__actions">
                 <i class="fas fa-moon theme-toggle" id="theme-toggle"></i>
@@ -50,7 +50,7 @@
     <main class="main">
         {% block content %}{% endblock %}
     </main>
-    
+
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
@@ -67,12 +67,7 @@
                 <div class="footer-section">
                     <h4>{% trans "Quick Links" %}</h4>
                     <ul>
-                        {% get_current_language as LANGUAGE_CODE %}
-                        <li>
-                            <a href="{% url 'home:home' %}">
-                                {% if LANGUAGE_CODE == 'ar' %}الرئيسية{% else %}Home{% endif %}
-                            </a>
-                        </li>
+                        <li><a href="{% url 'home:home' %}">{% trans "Home" %}</a></li>
                         <li><a href="{% url 'about:about' %}">{% trans "About" %}</a></li>
                         <li><a href="{% url 'projects:projects' %}">{% trans "Projects" %}</a></li>
                         <li><a href="{% url 'team:team' %}">{% trans "Team" %}</a></li>
@@ -100,4 +95,3 @@
     {% block extra_js %}{% endblock %}
 </body>
 </html>
-                    
