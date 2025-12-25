@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% trans "Meet the Team" %}{% endblock %}
+
+{% block content %}
+<section class="section-container">
+    <div class="section-header">
+        <h1 id="typing-title" data-text="{% trans 'Meet the Team' %}"></h1>
+        <p>{% trans "The innovative minds behind Wolf Strikes." %}</p>
+    </div>
+</section>
+
+<section class="container">
+    <div class="team-grid">
+
+        <!-- Team Member Card 1: Amal -->
+        <div class="team-card">
+            <div class="team-card__image-container">
+                <!-- Updated Image Path -->
+                <img src="{% static 'images/team/amal.jpeg' %}" alt="Amal Al-Waar">
+            </div>
+            <div class="team-card__content">
+                <h3 class="team-card__name">Amal Al-Waar</h3>
+                <p class="team-card__role">{% trans "Team Founder" %}</p>
+                <p class="team-card__bio">
+                    {% trans "An ambitious and young founder with strong skills in leadership and youth project management." %}
+                </p>
+                <div class="team-card__skills">
+                    <span>{% trans "Leadership" %}</span>
+                    <span>{% trans "Creativity" %}</span>
+                    <span>{% trans "Organization" %}</span>
+                </div>
+                <div class="team-card__social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member Card 2: Mohammed -->
+        <div class="team-card">
+            <div class="team-card__image-container">
+                <!-- Updated Image Path -->
+                <img src="{% static 'images/team/mohammed.jpeg' %}" alt="Mohammed Salah">
+            </div>
+            <div class="team-card__content">
+                <h3 class="team-card__name">Mohammed Salah</h3>
+                <p class="team-card__role">{% trans "Head of Programming" %}</p>
+                <p class="team-card__bio">
+                    {% trans "An expert programmer leading the development department, skilled in software development and problem-solving." %}
+                </p>
+                <div class="team-card__skills">
+                    <span>{% trans "Programming" %}</span>
+                    <span>{% trans "Web Dev" %}</span>
+                    <span>{% trans "Problem-Solving" %}</span>
+                </div>
+                <div class="team-card__social">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member Card 3: Saeed -->
+        <div class="team-card">
+            <div class="team-card__image-container">
+                <!-- Updated Image Path -->
+                <img src="{% static 'images/team/saeed.jpeg' %}" alt="Saeed">
+            </div>
+            <div class="team-card__content">
+                <h3 class="team-card__name">Saeed</h3>
+                <p class="team-card__role">{% trans "Head of Media" %}</p>
+                <p class="team-card__bio">
+                    {% trans "A creative media specialist, skilled in content creation and managing the team's visual identity." %}
+                </p>
+                <div class="team-card__skills">
+                    <span>{% trans "Design" %}</span>
+                    <span>{% trans "Editing" %}</span>
+                    <span>{% trans "Photography" %}</span>
+                </div>
+                <div class="team-card__social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}

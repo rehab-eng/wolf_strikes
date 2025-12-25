@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block content %}
+<!-- ======================= Hero Section ======================= -->
+<section class="hero">
+    <div class="hero-container container">
+        <div class="hero-content">
+            <h1 id="typing-title" data-text="Wolf Strikes"></h1>
+            <p class="hero-subtitle">{% trans "Innovative Robotics Team Pushing the Boundaries of Technology" %}</p>
+            <div class="cta-buttons">
+                <a href="{% url 'projects:projects' %}" class="btn btn-primary">{% trans "Explore Projects" %}</a>
+                <a href="{% url 'contact:contact' %}" class="btn btn-secondary">{% trans "Get In Touch" %}</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'images/hero-robot.png' %}" alt="Hero Robot" class="robot-image">
+        </div>
+    </div>
+</section>
+
+<!-- ======================= Features Section (What We Do) ======================= -->
+<section class="section-container container">
+    <div class="section-header">
+        <h2>{% trans "What We Do" %}</h2>
+        <p>{% trans "Cutting-edge robotics solutions for the future" %}</p>
+    </div>
+
+    <div class="features-grid">
+        <!-- Feature Card 1 -->
+        <div class="feature-card">
+            <i class="fas fa-drafting-compass feature-card__icon"></i>
+            <h3>{% trans "Advanced Design" %}</h3>
+            <p>{% trans "We design state-of-the-art robots using cutting-edge technology and innovative approaches." %}</p>
+        </div>
+
+        <!-- Feature Card 2 -->
+        <div class="feature-card">
+            <i class="fas fa-cogs feature-card__icon"></i>
+            <h3>{% trans "Precision Engineering" %}</h3>
+            <p>{% trans "Our team combines mechanical, electrical, and software engineering to create high-performance systems." %}</p>
+        </div>
+
+        <!-- Feature Card 3 -->
+        <div class="feature-card">
+            <i class="fas fa-trophy feature-card__icon"></i>
+            <h3>{% trans "Award-Winning" %}</h3>
+            <p>{% trans "We've achieved recognition at national and international robotics competitions." %}</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% trans "Our Projects" %}{% endblock %}
+
+{% block content %}
+
+<!-- ======================= Page Hero ======================= -->
+<section class="section-container">
+    <div class="section-header">
+        <h1 id="typing-title" data-text="{% trans 'Our Projects' %}"></h1>
+        <p>{% trans "A showcase of our innovation and engineering excellence." %}</p>
+    </div>
+</section>
+
+<!-- ======================= "Coming Soon" Section ======================= -->
+<section class="container">
+    <div class="coming-soon-container">
+        <div class="coming-soon-icon">
+            <i class="fas fa-rocket"></i>
+        </div>
+        <h2 class="coming-soon-title">{% trans "New Projects Launching Soon!" %}</h2>
+        <p class="coming-soon-text">
+            {% blocktrans %}Our team is working hard behind the scenes to develop the next generation of robotic solutions.
+            We are excited to unveil our latest projects soon. Stay tuned for groundbreaking innovations!{% endblocktrans %}
+        </p>
+        <div class="coming-soon-cta">
+            <a href="{% url 'contact:contact' %}" class="btn btn-primary">{% trans "Get Notified" %}</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

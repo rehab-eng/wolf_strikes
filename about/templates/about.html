@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% trans "About Us" %}{% endblock %}
+
+{% block content %}
+<section class="section-container">
+    <div class="section-header">
+        <h1 id="typing-title" data-text="{% trans 'About Wolf Strikes' %}"></h1>
+        <p>{% trans "Leading the Future of Robotics Innovation" %}</p>
+    </div>
+</section>
+<section class="container">
+    <div class="text-section">
+        <h2>{% trans "Our Mission" %}</h2>
+        <p>{% blocktrans %}Wolf Strikes is dedicated to developing innovative robotic solutions that push the boundaries of technology and engineering. We combine cutting-edge research, creative problem-solving, and meticulous engineering to create robots that make a real difference.{% endblocktrans %}</p>
+    </div>
+    <div class="text-section">
+        <h2>{% trans "Our Values" %}</h2>
+        <ul class="values-list">
+            <li>
+                <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+                <div class="value-text">
+                    <h3>{% trans "Innovation" %}</h3>
+                    <p>{% trans "Constantly pushing the limits of what's possible in robotics and automation." %}</p>
+                </div>
+            </li>
+            <li>
+                <div class="value-icon"><i class="fas fa-users"></i></div>
+                <div class="value-text">
+                    <h3>{% trans "Collaboration" %}</h3>
+                    <p>{% trans "We work as a unified team where every member contributes their expertise to achieve our collective goals." %}</p>
+                </div>
+            </li>
+            <li>
+                <div class="value-icon"><i class="fas fa-star"></i></div>
+                <div class="value-text">
+                    <h3>{% trans "Excellence" %}</h3>
+                    <p>{% trans "We strive for excellence in every aspect of our work, from design to implementation and testing." %}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="text-section">
+        <h2>{% trans "Our Story" %}</h2>
+        <div class="story-text">
+            <p>{% blocktrans %}In 2025, a new spark of innovation lit up within Libya's growing tech community. At the heart of this spark stood Amal Bwaer, a fifteen-year-old girl whose ambitions were far greater than her age. Driven by curiosity and a desire to build something meaningful, she founded Wolf Strikes, a robotics team that would soon become a gathering point for some of the brightest young minds in the country.{% endblocktrans %}</p>
+            <p>{% blocktrans %}What started as a small dream quickly evolved into a vision. The team worked together not just to build robots, but to build confidence, knowledge, and a supportive community. Their sessions were filled with brainstorming, testing, failing, learning, and trying again — because for them, robotics was more than circuits and code; it was a journey of growth.{% endblocktrans %}</p>
+        </div>
+    </div>
+</section>
+<section class="cta-section">
+    <div class="container">
+        <h2>{% trans "Join Our Mission" %}</h2>
+        <p>{% trans "Be part of the robotics revolution and help us shape the future." %}</p>
+        <a href="#" class="btn btn-primary">{% trans "Get In Touch" %}</a>
+    </div>
+</section>
+{% endblock %}

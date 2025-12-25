@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Our Team - Wolf Strikes{% endblock %}
+
+{% block content %}
+<!-- ======================= Page Hero ======================= -->
+<section class="section-container">
+    <div class="section-header">
+        <h1 id="typing-title"></h1>
+        <p>The innovative minds behind Wolf Strikes' success</p>
+    </div>
+</section>
+
+<!-- ======================= Team Grid ======================= -->
+<section class="container">
+    <div class="team-grid">
+        <!-- Amal's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="https://i.imgur.com/rG3iA2A.jpeg" class="team-img" alt="Amal Al-Waar">
+            </div>
+            <h2 class="team-name">Amal Al-Waar</h2>
+            <p class="team-role">Team Founder</p>
+            <p class="team-bio">An ambitious young founder with skills in leadership and youth project management.</p>
+            <div class="team-skills">
+                <span>Leadership</span><span>Creativity</span><span>Organization</span>
+            </div>
+            <div class="team-social">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <!-- Mohammed's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="https://i.imgur.com/YgW2qfW.jpeg" class="team-img" alt="Mohammed Salah">
+            </div>
+            <h2 class="team-name">Mohammed Salah</h2>
+            <p class="team-role">Head of Programming</p>
+            <p class="team-bio">An expert programmer leading the development department, skilled in software and problem-solving.</p>
+            <div class="team-skills">
+                <span>Python</span><span>Web Dev</span><span>Problem-Solving</span>
+            </div>
+            <div class="team-social">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <!-- Saeed's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="https://i.imgur.com/s4p2xGg.jpeg" class="team-img" alt="Saeed">
+            </div>
+            <h2 class="team-name">Saeed</h2>
+            <p class="team-role">Head of Media</p>
+            <p class="team-bio">A creative media specialist, skilled in content creation and managing the team's visual identity.</p>
+            <div class="team-skills">
+                <span>Design</span><span>Video Editing</span><span>Photography</span>
+            </div>
+            <div class="team-social">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

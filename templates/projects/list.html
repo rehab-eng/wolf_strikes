@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Our Projects - Wolf Strikes{% endblock %}
+
+{% block content %}
+<!-- ======================= Page Hero ======================= -->
+<section class="section-container">
+    <div class="section-header">
+        <h1 id="typing-title"></h1>
+        <p>Explore our latest robotics innovations and achievements</p>
+    </div>
+</section>
+
+<!-- ======================= Projects Section ======================= -->
+<section class="container">
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+        <button class="filter-btn" data-filter="in-progress">In Progress</button>
+        <button class="filter-btn" data-filter="planned">Planned</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+        <!-- Example Project Card (You can loop through your projects here) -->
+        <div class="project-card" data-category="completed">
+            <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=2048&auto=format&fit=crop" alt="Project Alpha">
+            <div class="project-info">
+                <span class="project-category">Completed</span>
+                <h3>Project Alpha</h3>
+                <p>An autonomous exploration robot designed for hazardous environments.</p>
+            </div>
+        </div>
+        <div class="project-card" data-category="in-progress">
+            <img src="https://images.unsplash.com/photo-1678043639454-48c246e76b1f?q=80&w=2070&auto=format&fit=crop" alt="Project Beta">
+            <div class="project-info">
+                <span class="project-category">In Progress</span>
+                <h3>Project Beta</h3>
+                <p>A humanoid assistant robot with advanced AI capabilities.</p>
+            </div>
+        </div>
+        <!-- Add more project cards as needed -->
+    </div>
+
+    <div class="no-projects-found" style="display: none; text-align: center; padding: 4rem 0;">
+        <h3>No projects found in this category.</h3>
+    </div>
+</section>
+
+<!-- ======================= Call to Action ======================= -->
+<section class="cta-section">
+    <div class="container">
+        <h2>Have a Project Idea?</h2>
+        <p>Let's collaborate and bring your vision to life.</p>
+        <a href="/contact/" class="btn btn-primary">Start a Conversation</a>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,103 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="{{ request.LANGUAGE_CODE }}" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Wolf Strikes{% endblock %} - Robotics Team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- The Critical Fix -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}?v=1.1">
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="{% url 'home:home' %}" class="nav__logo">Wolf Strikes</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    <li>
+                        <a href="{% url 'home:home' %}" class="nav__link">
+                            {% if LANGUAGE_CODE == 'ar' %}الرئيسية{% else %}Home{% endif %}
+                        </a>
+                    </li>
+                    <li><a href="{% url 'about:about' %}" class="nav__link">{% trans "About" %}</a></li>
+                    <li><a href="{% url 'projects:projects' %}" class="nav__link">{% trans "Projects" %}</a></li>
+                    <li><a href="{% url 'team:team' %}" class="nav__link">{% trans "Team" %}</a></li>
+                    <li><a href="{% url 'contact:contact' %}" class="btn btn-primary">{% trans "Contact Us" %}</a></li>
+                </ul>
+            </div>
+            <div class="nav__actions">
+                <i class="fas fa-moon theme-toggle" id="theme-toggle"></i>
+                <form action="{% url 'set_language' %}" method="post" class="lang-form">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ request.get_full_path|slice:'4:' }}">
+                    {% if request.LANGUAGE_CODE == 'ar' %}
+                        <button type="submit" name="language" value="en" class="lang-switch">EN</button>
+                    {% else %}
+                        <button type="submit" name="language" value="ar" class="lang-switch">AR</button>
+                    {% endif %}
+                </form>
+                <div class="nav__toggle" id="nav-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        {% block content %}{% endblock %}
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Wolf Strikes</h4>
+                    <p>{% trans "Innovative robotics team pushing the boundaries of technology and innovation." %}</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>{% trans "Quick Links" %}</h4>
+                    <ul>
+                        {% get_current_language as LANGUAGE_CODE %}
+                        <li>
+                            <a href="{% url 'home:home' %}">
+                                {% if LANGUAGE_CODE == 'ar' %}الرئيسية{% else %}Home{% endif %}
+                            </a>
+                        </li>
+                        <li><a href="{% url 'about:about' %}">{% trans "About" %}</a></li>
+                        <li><a href="{% url 'projects:projects' %}">{% trans "Projects" %}</a></li>
+                        <li><a href="{% url 'team:team' %}">{% trans "Team" %}</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>{% trans "Contact" %}</h4>
+                    <ul>
+                        <li><p>info@wolfstrikes.com</p></li>
+                        <li><p>+1 (555 ) 123-4567</p></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>{% trans "Our Mission" %}</h4>
+                    <p>{% trans "To inspire innovation and build the next generation of robotics engineers through cutting-edge technology and teamwork." %}</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {% now "Y" %} ByteHope Technology. All rights reserved. | Wolf Strikes Robotics Team</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
+                    

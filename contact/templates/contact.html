@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% trans "Contact Us" %}{% endblock %}
+
+{% block content %}
+<section class="section-container">
+    <div class="section-header">
+        <h1 id="typing-title" data-text="{% trans 'Get In Touch' %}"></h1>
+        <p>{% trans "We'd love to hear from you. Let's build the future together." %}</p>
+    </div>
+</section>
+
+<section class="container">
+    <div class="coming-soon-container">
+        <div class="coming-soon-icon">
+            <i class="fas fa-envelope-open-text"></i>
+        </div>
+        <h2 class="coming-soon-title">{% trans "Contact Page Under Construction" %}</h2>
+        <p class="coming-soon-text">
+            {% blocktrans %}Our contact form is being finalized. In the meantime, you can reach us via email.
+            We look forward to connecting with you!{% endblocktrans %}
+        </p>
+    </div>
+</section>
+{% endblock %}

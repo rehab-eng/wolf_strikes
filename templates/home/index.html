@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home - Wolf Strikes{% endblock %}
+
+{% block content %}
+<!-- ======================= Hero Section ======================= -->
+<section class="hero">
+    <div class="hero-container container">
+        <div class="hero-content">
+            <h1 id="typing-title"></h1> 
+            <p class="hero-subtitle">Innovative Robotics Team Pushing the Boundaries of Technology</p>
+            <div class="cta-buttons">
+                <a href="/projects/" class="btn btn-primary">Explore Projects</a>
+                <a href="/contact/" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'images/hero-robot.png' %}" alt="Wolf Strikes Robot" class="robot-image">
+        </div>
+    </div>
+</section>
+
+<!-- ======================= What We Do Section ======================= -->
+<section class="section-container">
+    <div class="section-header">
+        <h2>What We Do</h2>
+        <p>Cutting-edge robotics solutions for the future</p>
+    </div>
+    <div class="staggered-grid container">
+        <div class="staggered-item">
+            <div class="staggered-icon"><i class="fas fa-drafting-compass"></i></div>
+            <div class="staggered-content">
+                <h3>Advanced Design</h3>
+                <p>We design state-of-the-art robots using cutting-edge technology and innovative approaches.</p>
+            </div>
+        </div>
+        <div class="staggered-item">
+            <div class="staggered-icon"><i class="fas fa-cogs"></i></div>
+            <div class="staggered-content">
+                <h3>Precision Engineering</h3>
+                <p>Our team combines mechanical, electrical, and software engineering to create high-performance systems.</p>
+            </div>
+        </div>
+        <div class="staggered-item">
+            <div class="staggered-icon"><i class="fas fa-trophy"></i></div>
+            <div class="staggered-content">
+                <h3>Award-Winning</h3>
+                <p>We've achieved recognition at national and international robotics competitions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
