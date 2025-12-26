@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Wolf Strikes{% endblock %} - Robotics Team</title>
+    <title>{% block title %}Wolf Strikes{% endblock %} - {% trans "Robotics Team" %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -85,8 +85,9 @@
                     <p>{% trans "To inspire innovation and build the next generation of robotics engineers through cutting-edge technology and teamwork." %}</p>
                 </div>
             </div>
+            {% now "Y" as current_year %}
             <div class="footer-bottom">
-                <p>&copy; {% now "Y" %} ByteHope Technology. All rights reserved. | Wolf Strikes Robotics Team</p>
+                <p>&copy; {{ current_year }} {% trans "ByteHope Technology. All rights reserved. | Wolf Strikes Robotics Team" %}</p>
             </div>
         </div>
     </footer>

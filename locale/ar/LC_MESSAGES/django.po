@@ -14,6 +14,12 @@ msgstr ""
 msgid "Home"
 msgstr "الرئيسية"
 
+msgid "Robotics Team"
+msgstr "فريق الروبوتات"
+
+msgid "ByteHope Technology. All rights reserved. | Wolf Strikes Robotics Team"
+msgstr "ByteHope Technology. جميع الحقوق محفوظة | فريق وولف سترايكس للروبوتات"
+
 msgid "About"
 msgstr "من نحن"
 
@@ -40,6 +46,12 @@ msgstr "إلهام الابتكار وبناء الجيل القادم من مه
 
 msgid "Innovative Robotics Team Pushing the Boundaries of Technology"
 msgstr "فريق روبوتات مبتكر يدفع حدود التكنولوجيا"
+
+msgid "Welcome to our website"
+msgstr "مرحباً بكم في موقعنا"
+
+msgid "Friendly Robot"
+msgstr "روبوت ترحيبي"
 
 msgid "Explore Projects"
 msgstr "استكشف المشاريع"
@@ -170,12 +182,8 @@ msgstr "عرض لابتكارنا وتميزنا الهندسي."
 msgid "New Projects Launching Soon!"
 msgstr "مشاريع جديدة قريباً!"
 
-msgid ""
-"Our team is working hard behind the scenes to develop the next generation of robotic solutions.\n"
-"            We are excited to unveil our latest projects soon. Stay tuned for groundbreaking innovations!"
-msgstr ""
-"يعمل فريقنا بجد خلف الكواليس لتطوير الجيل القادم من حلول الروبوتات.\n"
-"            نحن متحمسون للكشف عن أحدث مشاريعنا قريباً. ترقبوا ابتكارات رائدة!"
+msgid "Our team is working hard behind the scenes to develop the next generation of robotic solutions. We are excited to unveil our latest projects soon. Stay tuned for groundbreaking innovations!"
+msgstr "يعمل فريقنا بجد خلف الكواليس لتطوير الجيل القادم من حلول الروبوتات. نحن متحمسون للكشف عن أحدث مشاريعنا قريباً. ترقبوا ابتكارات رائدة!"
 
 msgid "Get Notified"
 msgstr "أشعرني"
@@ -189,12 +197,8 @@ msgstr "يسعدنا سماعك. لنَبْنِ المستقبل معاً."
 msgid "Contact Page Under Construction"
 msgstr "صفحة التواصل قيد الإنشاء"
 
-msgid ""
-"Our contact form is being finalized. In the meantime, you can reach us via email.\n"
-"            We look forward to connecting with you!"
-msgstr ""
-"نموذج التواصل قيد الإنهاء. في الوقت الحالي، يمكنك التواصل معنا عبر البريد الإلكتروني.\n"
-"            نتطلع للتواصل معك!"
+msgid "Our contact form is being finalized. In the meantime, you can reach us via email. We look forward to connecting with you!"
+msgstr "نموذج التواصل قيد الإنهاء. في الوقت الحالي، يمكنك التواصل معنا عبر البريد الإلكتروني. نتطلع للتواصل معك!"
 
 msgid "Meet the Team"
 msgstr "تعرف على الفريق"
