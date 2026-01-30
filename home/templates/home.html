@@ -11,7 +11,7 @@
     </div>
     <div class="hero-container container">
         <div class="hero-content">
-            <div class="hero-greeting text-rotate" data-rotate-interval="2000" data-rotate-texts="{% trans 'Welcome to our website' %}">
+            <div class="hero-greeting text-rotate" dir="{% if request.LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}" data-rotate-interval="2000" data-rotate-texts="{% trans 'Welcome to our website' %}">
                 {% trans "Welcome to our website" %}
             </div>
             <h1 id="typing-title" data-text="Wolf Strikes"></h1>
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="{% static 'images/hero-robot-white.svg' %}" alt="{% trans 'Friendly Robot' %}" class="robot-image robot-image--white">
+            <img src="{% static 'images/team/robot.jpg' %}" alt="{% trans 'Friendly Robot' %}" class="robot-image robot-image--photo">
         </div>
     </div>
 </section>
@@ -66,16 +66,55 @@
         <article class="feature-card feature-card--pro">
             <div class="feature-card__top">
                 <i class="fas fa-trophy feature-card__icon"></i>
-                <span class="feature-card__pill">{% trans "Competitive Edge" %}</span>
+                <span class="feature-card__pill">{% trans "Coming Soon" %}</span>
             </div>
-            <h3>{% trans "Award-Winning" %}</h3>
-            <p>{% trans "We've achieved recognition at national and international robotics competitions." %}</p>
+            <h3>{% trans "Awards" %}</h3>
+            <p>{% trans "The awards section will be updated soon with the team’s achievements and honors." %}</p>
             <ul class="feature-card__list">
-                <li>{% trans "Strategy and scouting" %}</li>
-                <li>{% trans "Field-ready prototypes" %}</li>
-                <li>{% trans "Awards and recognition" %}</li>
+                <li>{% trans "Coming soon" %}</li>
+                <li>{% trans "Coming soon" %}</li>
+                <li>{% trans "Coming soon" %}</li>
             </ul>
         </article>
+    </div>
+</section>
+
+<!-- ======================= Sponsors Section ======================= -->
+<section class="section-container sponsors-section">
+    <div class="section-header">
+        <h2>{% trans "Our Sponsors" %}</h2>
+        <p>{% trans "Thanks to the partners who support our innovation journey" %}</p>
+    </div>
+    <div class="sponsors-grid container">
+        <div class="sponsor-card">
+            <h3 class="sponsor-name">{% trans "ByteHope Technology" %}</h3>
+            <img src="{% static 'images/sponsors/bytehubtech.png' %}" alt="{% trans 'ByteHope Technology' %}" class="sponsor-logo">
+            <p class="sponsor-caption">{% trans "ByteHope Technology provided the technical support that helped the team go fully digital." %}</p>
+        </div>
+
+        <div class="sponsor-card">
+            <h3 class="sponsor-name">{% trans "Visible" %}</h3>
+            <img src="{% static 'images/sponsors/visible.png' %}" alt="{% trans 'Visible' %}" class="sponsor-logo">
+            <p class="sponsor-caption">{% trans "Visible designed the robot’s 3D components." %}</p>
+        </div>
+
+        <div class="sponsor-card">
+            <h3 class="sponsor-name">{% trans "Almerfak Oil Services" %}</h3>
+            <img src="{% static 'images/sponsors/Almerfak .png' %}" alt="{% trans 'Almerfak Oil Services' %}" class="sponsor-logo">
+            <p class="sponsor-caption">{% trans "Almerfak Oil Services provided financial support for the team." %}</p>
+        </div>
+
+        <div class="sponsor-card">
+            <h3 class="sponsor-name">{% trans "Brack" %}</h3>
+            <img src="{% static 'images/sponsors/brack.png' %}" alt="{% trans 'Brack' %}" class="sponsor-logo">
+            <p class="sponsor-caption">{% trans "A proud partner supporting the team’s journey." %}</p>
+        </div>
+
+        <div class="sponsor-card">
+            <h3 class="sponsor-name">{% trans "Tarbah" %}</h3>
+            <img src="{% static 'images/sponsors/TARBAH.png' %}" alt="{% trans 'Tarbah' %}" class="sponsor-logo">
+            <p class="sponsor-caption">{% trans "Provided valued support to strengthen the team’s progress." %}</p>
+        </div>
     </div>
 </section>
 {% endblock %}

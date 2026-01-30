@@ -118,11 +118,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # المجلد الذي سيتم تجميع الملفات فيه عند رفع الموقع (وهو ما يحتاجه PythonAnywhere)
-STATIC_ROOT = BASE_DIR / 'static'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # المجلدات الإضافية للملفات الثابتة (إذا كان لديك ملفات خارج التطبيقات)
 # ملاحظة: لا تضع هنا نفس مسار STATIC_ROOT لتجنب الأخطاء
 STATICFILES_DIRS = [
+    BASE_DIR / 'static',
     # BASE_DIR / 'assets',  <-- فعل هذا السطر فقط إذا أنشأت مجلداً اسمه assets للملفات العامة
 ]
 

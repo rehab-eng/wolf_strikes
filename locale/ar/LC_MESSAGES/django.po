@@ -253,3 +253,261 @@ msgstr "المونتاج"
 
 msgid "Photography"
 msgstr "التصوير"
+
+msgid "Coming Soon"
+msgstr "قريبًا"
+
+msgid "Awards"
+msgstr "الجوائز"
+
+msgid "The awards section will be updated soon with the team’s achievements and honors."
+msgstr "سيتم تحديث قسم الجوائز قريبًا مع إنجازات الفريق وتكريماته."
+
+msgid "Coming soon"
+msgstr "قريبًا"
+
+msgid "Our Sponsors"
+msgstr "الداعمون"
+
+msgid "Thanks to the partners who support our innovation journey"
+msgstr "شكرًا للشركاء الذين يدعمون رحلتنا الابتكارية"
+
+msgid "ByteHope Technology"
+msgstr "بايت هوب للتقنية"
+
+msgid "ByteHope Technology provided the technical support that helped the team go fully digital."
+msgstr "قدمت بايت هوب للتقنية الدعم الفني الذي ساعد الفريق على التحول الرقمي."
+
+msgid "Visible"
+msgstr "فيسبل"
+
+msgid "Visible designed the robot’s 3D components."
+msgstr "صممت شركة فيسبل قطع الروبوت ثلاثية الأبعاد."
+
+msgid "Almerfak Oil Services"
+msgstr "المرفق النفطية"
+
+msgid "Almerfak Oil Services provided financial support for the team."
+msgstr "قدمت شركة المرفق النفطية دعمًا ماليًا للفريق."
+
+msgid "Brack"
+msgstr "براك"
+
+msgid "A proud partner supporting the team’s journey."
+msgstr "شريك داعم لمسيرة الفريق ونجاحاته."
+
+msgid "Tarbah"
+msgstr "طربه"
+
+msgid "Provided valued support to strengthen the team’s progress."
+msgstr "قدمت دعمًا مميزًا لتعزيز مسيرة الفريق."
+
+msgid "Our Team - Wolf Strikes"
+msgstr "فريقنا - وولف سترايكس"
+
+msgid "The innovative minds behind Wolf Strikes' success"
+msgstr "العقول المبدعة وراء نجاح وولف سترايكس"
+
+msgid "Amal"
+msgstr "أمل"
+
+msgid "Head of Media Department"
+msgstr "قائدة قسم الإعلام"
+
+msgid "Leads the media team and manages the visual identity and communication."
+msgstr "تقود فريق الإعلام وتدير الهوية البصرية والتواصل الإعلامي."
+
+msgid "Media Management"
+msgstr "إدارة الإعلام"
+
+msgid "Visual Identity"
+msgstr "الهوية البصرية"
+
+msgid "Content Writing"
+msgstr "كتابة المحتوى"
+
+msgid "Mohammed Salah"
+msgstr "محمد صلاح"
+
+msgid "Programming Lead"
+msgstr "مسؤول البرمجة"
+
+msgid "An expert programmer leading software development and technical problem-solving."
+msgstr "مبرمج خبير يقود تطوير البرمجيات ويعالج التحديات التقنية."
+
+msgid "Web Development"
+msgstr "تطوير الويب"
+
+msgid "Problem Solving"
+msgstr "حل المشكلات"
+
+msgid "Saeed"
+msgstr "سعيد"
+
+msgid "Team Leader"
+msgstr "قائد الفريق"
+
+msgid "Leads the team and coordinates efforts across all departments."
+msgstr "يتولى قيادة الفريق وتنسيق الجهود بين الأقسام."
+
+msgid "Planning"
+msgstr "تخطيط"
+
+msgid "Maeen (Al-Afandi)"
+msgstr "معين (الأفندي)"
+
+msgid "Professional Programmer"
+msgstr "مبرمج محترف"
+
+msgid "Specialized in building advanced software solutions."
+msgstr "متخصص في بناء حلول برمجية متقدمة."
+
+msgid "Analysis"
+msgstr "تحليل"
+
+msgid "Innovation"
+msgstr "ابتكار"
+
+msgid "Mohammed Dawas"
+msgstr "محمد الدواس"
+
+msgid "Build & Programming Department"
+msgstr "قسم البناء والبرمجة"
+
+msgid "Contributes to construction and programming to ensure system integration."
+msgstr "يسهم في البناء والبرمجة لضمان تكامل الأنظمة."
+
+msgid "Implementation"
+msgstr "تنفيذ"
+
+msgid "Ali Nasser"
+msgstr "علي ناصر"
+
+msgid "Build Department"
+msgstr "قسم البناء"
+
+msgid "Focuses on assembling components with high precision."
+msgstr "يعمل على تجميع المكونات بدقة عالية."
+
+msgid "Assembly"
+msgstr "تركيب"
+
+msgid "Testing"
+msgstr "اختبار"
+
+msgid "Execution"
+msgstr "تنفيذ"
+
+msgid "Ayoub"
+msgstr "أيوب"
+
+msgid "Supports the build team in structure and component preparation."
+msgstr "يساند فريق البناء في تجهيز الهياكل والقطع."
+
+msgid "Build"
+msgstr "بناء"
+
+msgid "Precision"
+msgstr "دقة"
+
+msgid "Teamwork"
+msgstr "عمل جماعي"
+
+msgid "Ahmed Bosifi"
+msgstr "أحمد بوسيفي"
+
+msgid "Professional Python Programmer"
+msgstr "مبرمج محترف بلغة بايثون"
+
+msgid "Builds robust software solutions using Python."
+msgstr "يطوّر حلولًا برمجية قوية باستخدام بايثون."
+
+msgid "Automation"
+msgstr "أتمتة"
+
+msgid "Algorithms"
+msgstr "خوارزميات"
+
+msgid "Doaa"
+msgstr "دعاء"
+
+msgid "An active member in the build department with strong execution."
+msgstr "عضوة نشيطة في قسم البناء ذات تنفيذ قوي."
+
+msgid "Coordination"
+msgstr "تنسيق"
+
+msgid "Commitment"
+msgstr "التزام"
+
+msgid "Arzaq"
+msgstr "أرزاق"
+
+msgid "Creative Media Department"
+msgstr "قسم الميديا الإبداعي"
+
+msgid "Creates media content and shapes the team’s visual presence."
+msgstr "تصنع محتوى إعلاميًا وتبني حضور الفريق البصري."
+
+msgid "Editing"
+msgstr "مونتاج"
+
+msgid "Creativity"
+msgstr "إبداع"
+
+msgid "Ozzie"
+msgstr "أوزي"
+
+msgid "Role to be confirmed"
+msgstr "الدور قيد التحديد"
+
+msgid "Details for this member will be updated soon."
+msgstr "سيتم تحديث تفاصيل هذا العضو قريبًا."
+
+msgid "Coming"
+msgstr "قريب"
+
+msgid "Soon"
+msgstr "قريبًا"
+
+msgid "..."
+msgstr "..."
+
+msgid "Alzyani"
+msgstr "الزياني"
+
+msgid "Team Photographer"
+msgstr "مصور الفريق"
+
+msgid "Documents team activities with a professional eye."
+msgstr "يوثق أنشطة الفريق بعدسة احترافية."
+
+msgid "Lighting"
+msgstr "إضاءة"
+
+msgid "Noor"
+msgstr "نور"
+
+msgid "Team Member"
+msgstr "عضو في الفريق"
+
+msgid "Supports the team with a collaborative spirit."
+msgstr "يدعم الفريق بروح تعاونية."
+
+msgid "Collaboration"
+msgstr "تعاون"
+
+msgid "Adaptability"
+msgstr "مرونة"
+
+msgid "Al-Maqrahi (Son of the South)"
+msgstr "المقرحي (ولد الجنوب)"
+
+msgid "Contributes to the team’s progress with positive energy."
+msgstr "يسهم في تقدم الفريق بطاقة إيجابية."
+
+msgid "Enthusiasm"
+msgstr "حماس"
+
+msgid "Responsibility"
+msgstr "مسؤولية"
