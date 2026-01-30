@@ -8,10 +8,15 @@
       <stop offset="0" stop-color="#94a3b8"/>
       <stop offset="1" stop-color="#475569"/>
     </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9ca3af"/>
+      <stop offset="1" stop-color="#6b7280"/>
+    </linearGradient>
   </defs>
   <rect width="600" height="750" rx="36" fill="url(#bg)"/>
   <circle cx="300" cy="220" r="95" fill="url(#shape)"/>
-  <path d="M170 380c0-70 130-130 130-130s130 60 130 130v60H170v-60z" fill="url(#shape)"/>
-  <path d="M120 630c0-95 90-170 180-170h0c90 0 180 75 180 170v50H120v-50z" fill="url(#shape)"/>
-  <rect x="230" y="300" width="140" height="30" rx="15" fill="#94a3b8" opacity="0.4"/>
+  <path d="M255 295h90c0 34-20 68-45 68s-45-34-45-68z" fill="url(#accent)" opacity="0.7"/>
+  <path d="M160 380c0-78 140-135 140-135s140 57 140 135v60H160v-60z" fill="url(#shape)"/>
+  <path d="M110 630c0-100 100-175 190-175h0c90 0 190 75 190 175v50H110v-50z" fill="url(#shape)"/>
+  <path d="M290 430l10 18 10-18h30l-40 74-40-74h30z" fill="#a5b4fc" opacity="0.35"/>
 </svg>

@@ -8,10 +8,16 @@
       <stop offset="0" stop-color="#94a3b8"/>
       <stop offset="1" stop-color="#64748b"/>
     </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b7280"/>
+      <stop offset="1" stop-color="#4b5563"/>
+    </linearGradient>
   </defs>
   <rect width="600" height="750" rx="36" fill="url(#bg)"/>
-  <circle cx="300" cy="230" r="90" fill="url(#shape)"/>
-  <path d="M190 390c0-70 110-120 110-120s110 50 110 120v40H190v-40z" fill="url(#shape)"/>
-  <path d="M140 620c0-90 80-160 160-160h0c80 0 160 70 160 160v40H140v-40z" fill="url(#shape)"/>
-  <path d="M210 280c20 40 60 60 90 60s70-20 90-60c20 70-20 150-90 150s-110-80-90-150z" fill="#a5b4fc" opacity="0.3"/>
+  <circle cx="300" cy="230" r="86" fill="url(#shape)"/>
+  <path d="M210 210c10-60 70-100 150-100s140 40 150 100c-30-30-70-46-150-46s-120 16-150 46z" fill="url(#hair)"/>
+  <path d="M220 260c-8 40 6 90 44 120 16 12 28 22 36 36 10 18 18 42 18 62h-38c-6-28-20-44-40-60-56-44-76-106-60-158 10 8 24 12 40 12z" fill="url(#hair)" opacity="0.85"/>
+  <path d="M210 400c0-60 90-110 90-110s90 50 90 110v36H210v-36z" fill="url(#shape)"/>
+  <path d="M170 620c0-90 60-150 130-150h0c70 0 130 60 130 150v40H170v-40z" fill="url(#shape)"/>
+  <path d="M230 290c18 36 50 54 70 54s52-18 70-54c16 60-16 124-70 124s-86-64-70-124z" fill="#a5b4fc" opacity="0.3"/>
 </svg>

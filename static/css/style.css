@@ -1497,6 +1497,38 @@ html[data-theme='light'] .pc-tags span {
     transform: scale(1.02);
 }
 
+@media (max-width: 768px) {
+    .container { padding: 0 1rem; }
+    .section-container { padding: 3.5rem 0; }
+    .section-header h1, .section-header h2 { font-size: 2.1rem; }
+    .section-header p { font-size: 1rem; }
+    .hero { min-height: auto; padding-bottom: 2rem; }
+    .hero-content h1 { font-size: 2.4rem; }
+    .hero-subtitle { font-size: 1rem; }
+    .robot-image { max-width: min(360px, 90vw); }
+    .team-grid { grid-template-columns: 1fr; gap: 2rem; margin-top: 2.5rem; }
+    .team-card { padding: 1.2rem; }
+    .team-image-container { aspect-ratio: 3 / 4; }
+    .team-role { font-size: 0.7rem; }
+    .team-bio { font-size: 0.92rem; }
+    .team-skills span { font-size: 0.68rem; }
+    .sponsors-grid { grid-template-columns: repeat(2, minmax(120px, 1fr)); gap: 1rem; }
+    .sponsor-logo { max-width: 120px; max-height: 56px; }
+    .sponsor-caption { font-size: 0.85rem; }
+}
+
+@media (max-width: 480px) {
+    .nav__menu { width: 82%; }
+    .hero-content h1 { font-size: 2rem; }
+    .section-header h1, .section-header h2 { font-size: 1.8rem; }
+    .team-card { padding: 1rem; }
+    .team-name { font-size: 1.05rem; }
+    .sponsors-grid { grid-template-columns: 1fr; }
+    .sponsor-logo { max-width: 140px; }
+    .cta-buttons { flex-direction: column; width: 100%; }
+    .btn { width: 100%; text-align: center; }
+}
+
 /* =================================================================
    16. RTL Adjustments
    ================================================================= */
