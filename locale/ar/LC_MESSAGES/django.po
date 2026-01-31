@@ -297,7 +297,7 @@ msgid "A proud partner supporting the team’s journey."
 msgstr "شريك داعم لمسيرة الفريق ونجاحاته."
 
 msgid "Tarbah"
-msgstr "طربه"
+msgstr "تربح"
 
 msgid "Provided valued support to strengthen the team’s progress."
 msgstr "قدمت دعمًا مميزًا لتعزيز مسيرة الفريق."
@@ -511,3 +511,81 @@ msgstr "حماس"
 
 msgid "Responsibility"
 msgstr "مسؤولية"
+
+msgid "The awards section will be updated soon with the team's achievements and honors."
+msgstr "سيتم تحديث قسم الجوائز قريبًا بإنجازات الفريق وتكريماته."
+
+msgid "Visible designed the robot's 3D components."
+msgstr "قامت شركة فيزيبل بتصميم قطع الروبوت ثلاثية الأبعاد."
+
+msgid "A proud partner supporting the team's journey."
+msgstr "شريك فخور يدعم مسيرة الفريق."
+
+msgid "Provided valued support to strengthen the team's progress."
+msgstr "قدّمت دعمًا قيّمًا لتعزيز تقدّم الفريق."
+
+msgid "An expert programmer leading software development and technical problem-solving. A top-tier software specialist who contributed to building this website."
+msgstr "مبرمج خبير يقود تطوير البرمجيات وحل المشكلات التقنية. خبير برمجيات من الدرجة الأولى وساهم في برمجة هذا الموقع."
+
+msgid "Specialized in building advanced software solutions. Beloved by the team and the master of championships. The smile that brings joy to the team and the light in the darkness."
+msgstr "متخصص في بناء حلول برمجية متقدمة. محبوب الفريق وعرّاب البطولات. الابتسامة التي تصنع البهجة في الفريق وهو النور في الظلام."
+
+msgid "Supports the build team in structure and component preparation. A build legend who never sleeps; he forges victory from effort. 🙂"
+msgstr "يدعم فريق البناء في تجهيز الهيكل والمكونات. أسطورة البناء لا يعرف النوم؛ يصنع من الجهد فوزًا. 🙂"
+
+msgid "Builds robust software solutions using Python. The sleeping wolf who smells championships and devours them without mercy."
+msgstr "يبني حلولًا برمجية متينة بلغة بايثون. الذئب النائم يشم رائحة البطولات ويفترسها بلا رحمة."
+
+msgid "Creates media content and shapes the team's visual presence."
+msgstr "تصنع المحتوى الإعلامي وتشكل الحضور البصري للفريق."
+
+msgid "The calm team cat, cared for even more than the robot. 🙂"
+msgstr "قط الفريق الهادئ، تم الاهتمام به أكثر من الروبوت. 🙂"
+
+msgid "Team Mascot"
+msgstr "تميمة الفريق"
+
+msgid "Calm"
+msgstr "هادئ"
+
+msgid "Friendly"
+msgstr "ودود"
+
+msgid "Beloved"
+msgstr "محبوب"
+
+msgid "Contributes to the team's progress with positive energy."
+msgstr "يساهم في تقدّم الفريق بطاقة إيجابية."
+
+msgid "Contact Us - Wolf Strikes"
+msgstr "تواصل معنا - وولف سترايكس"
+
+msgid "Contact Us"
+msgstr "تواصل معنا"
+
+msgid "We'd love to hear from you. Let's build the future together."
+msgstr "يسعدنا سماعك. دعنا نبني المستقبل معًا."
+
+msgid "Contact Information"
+msgstr "معلومات التواصل"
+
+msgid "Fill up the form and our team will get back to you within 24 hours."
+msgstr "املأ النموذج وسيتواصل معك فريقنا خلال 24 ساعة."
+
+msgid "Innovation Hub, Tech City"
+msgstr "مركز الابتكار، مدينة التقنية"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Subject"
+msgstr "الموضوع"
+
+msgid "Message"
+msgstr "الرسالة"
+
+msgid "Send Message"
+msgstr "إرسال الرسالة"
