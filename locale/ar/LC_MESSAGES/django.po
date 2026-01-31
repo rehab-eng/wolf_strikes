@@ -128,11 +128,6 @@ msgstr "عن وولف سترايكس"
 msgid "Leading the Future of Robotics Innovation"
 msgstr "نقود مستقبل ابتكار الروبوتات"
 
-msgid ""
-"Wolf Strikes is dedicated to developing innovative robotic solutions that push the boundaries of technology and engineering. We combine cutting-edge research, creative problem-solving, and meticulous engineering to create robots that make a real difference."
-msgstr ""
-"وولف سترايكس مكرس لتطوير حلول روبوتية مبتكرة تدفع حدود التكنولوجيا والهندسة. نجمع بين الأبحاث المتقدمة وحل المشكلات الإبداعي والهندسة الدقيقة لصنع روبوتات تُحدث فرقاً حقيقياً."
-
 msgid "Our Values"
 msgstr "قيمنا"
 
@@ -156,16 +151,6 @@ msgstr "نسعى للتميز في كل جانب من عملنا، من التص
 
 msgid "Our Story"
 msgstr "قصتنا"
-
-msgid ""
-"In 2025, a new spark of innovation lit up within Libya's growing tech community. At the heart of this spark stood Amal Bwaer, a fifteen-year-old girl whose ambitions were far greater than her age. Driven by curiosity and a desire to build something meaningful, she founded Wolf Strikes, a robotics team that would soon become a gathering point for some of the brightest young minds in the country."
-msgstr ""
-"في عام 2025، اشتعلت شرارة جديدة من الابتكار داخل مجتمع التكنولوجيا المتنامي في ليبيا. وفي قلب هذه الشرارة كانت أمل بوير، فتاة في الخامسة عشرة من عمرها كانت طموحاتها أكبر بكثير من سنها. بدافع الفضول والرغبة في بناء شيء ذي معنى، أسست فريق وولف سترايكس للروبوتات، الذي سرعان ما أصبح نقطة تجمع لبعض ألمع العقول الشابة في البلاد."
-
-msgid ""
-"What started as a small dream quickly evolved into a vision. The team worked together not just to build robots, but to build confidence, knowledge, and a supportive community. Their sessions were filled with brainstorming, testing, failing, learning, and trying again — because for them, robotics was more than circuits and code; it was a journey of growth."
-msgstr ""
-"ما بدأ كحلم صغير تطور بسرعة إلى رؤية. عمل الفريق معاً ليس فقط لبناء روبوتات، بل لبناء الثقة والمعرفة ومجتمع داعم. كانت جلساتهم مليئة بالعصف الذهني والاختبار والإخفاق والتعلم والمحاولة مرة أخرى — لأن الروبوتات بالنسبة لهم كانت أكثر من دوائر وشيفرات؛ كانت رحلة نمو."
 
 msgid "Join Our Mission"
 msgstr "انضم إلى مهمتنا"
@@ -365,9 +350,6 @@ msgstr "متخصص في بناء حلول برمجية متقدمة."
 msgid "Analysis"
 msgstr "تحليل"
 
-msgid "Innovation"
-msgstr "ابتكار"
-
 msgid "Mohammed Dawas"
 msgstr "محمد الدواس"
 
@@ -449,12 +431,6 @@ msgstr "قسم الميديا الإبداعي"
 msgid "Creates media content and shapes the team’s visual presence."
 msgstr "تصنع محتوى إعلاميًا وتبني حضور الفريق البصري."
 
-msgid "Editing"
-msgstr "مونتاج"
-
-msgid "Creativity"
-msgstr "إبداع"
-
 msgid "Ozzie"
 msgstr "أوزي"
 
@@ -493,9 +469,6 @@ msgstr "عضو في الفريق"
 
 msgid "Supports the team with a collaborative spirit."
 msgstr "يدعم الفريق بروح تعاونية."
-
-msgid "Collaboration"
-msgstr "تعاون"
 
 msgid "Adaptability"
 msgstr "مرونة"
@@ -559,12 +532,6 @@ msgstr "يساهم في تقدّم الفريق بطاقة إيجابية."
 
 msgid "Contact Us - Wolf Strikes"
 msgstr "تواصل معنا - وولف سترايكس"
-
-msgid "Contact Us"
-msgstr "تواصل معنا"
-
-msgid "We'd love to hear from you. Let's build the future together."
-msgstr "يسعدنا سماعك. دعنا نبني المستقبل معًا."
 
 msgid "Contact Information"
 msgstr "معلومات التواصل"
