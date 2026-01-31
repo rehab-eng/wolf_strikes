@@ -1,6 +1,6 @@
 {% load static i18n %}
 <!DOCTYPE html>
-<html lang="{{ request.LANGUAGE_CODE }}" data-theme="dark" dir="{% if request.LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
+<html lang="{{ request.LANGUAGE_CODE }}" data-theme="light" dir="{% if request.LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@
                             <li class="nav__item"><a href="{% url 'about:about' %}" class="nav__link">{% trans "About" %}</a></li>
                             <li class="nav__item"><a href="{% url 'projects:projects' %}" class="nav__link">{% trans "Projects" %}</a></li>
                             <li class="nav__item"><a href="{% url 'team:team' %}" class="nav__link">{% trans "Team" %}</a></li>
-                            <li class="nav__item"><a href="{% url 'contact:contact' %}" class="nav__link">{% trans "Contact" %}</a></li>
+                            <li class="nav__item"><a href="https://wa.me/218934213954" class="nav__link" target="_blank" rel="noopener">{% trans "Contact" %}</a></li>
                         </ul>
                     </nav>
                     <span class="effect filter" aria-hidden="true"></span>
