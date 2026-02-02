@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+﻿{% extends "base.html" %}
 {% load static i18n %}
 
 {% block title %}{% trans "Our Team - Wolf Strikes" %}{% endblock %}
@@ -18,26 +18,13 @@
         <!-- Amal's Card -->
         <div class="team-card">
             <div class="team-image-container">
-                <img src="{% static 'images/team/amal.jpeg' %}" class="team-img" alt="{% trans 'Amal' %}">
+                <img src="{% static 'images/team/amal.jpg' %}" class="team-img" alt="{% trans 'Amal' %}">
             </div>
             <h2 class="team-name">{% trans "Amal" %}</h2>
-            <p class="team-role">{% trans "Head of Media Department" %}</p>
+            <p class="team-role">{% trans "Team Leader" %}</p>
             <p class="team-bio">{% trans "Leads the media team and manages the visual identity and communication." %}</p>
             <div class="team-skills">
                 <span>{% trans "Media Management" %}</span><span>{% trans "Visual Identity" %}</span><span>{% trans "Content Writing" %}</span>
-            </div>
-        </div>
-
-        <!-- Mohammed Salah's Card -->
-        <div class="team-card">
-            <div class="team-image-container">
-                <img src="{% static 'images/team/mohammed.jpeg' %}" class="team-img" alt="{% trans 'Mohammed Salah' %}">
-            </div>
-            <h2 class="team-name">{% trans "Mohammed Salah" %}</h2>
-            <p class="team-role">{% trans "Programming Lead" %}</p>
-            <p class="team-bio">{% trans "An expert programmer leading software development and technical problem-solving." %}</p>
-            <div class="team-skills">
-                <span>{% trans "Python" %}</span><span>{% trans "Web Development" %}</span><span>{% trans "Problem Solving" %}</span>
             </div>
         </div>
 
@@ -47,7 +34,7 @@
                 <img src="{% static 'images/team/saeed.jpeg' %}" class="team-img" alt="{% trans 'Saeed' %}">
             </div>
             <h2 class="team-name">{% trans "Saeed" %}</h2>
-            <p class="team-role">{% trans "Team Leader" %}</p>
+            <p class="team-role">{% trans "Mentor" %}</p>
             <p class="team-bio">{% trans "Leads the team and coordinates efforts across all departments." %}</p>
             <div class="team-skills">
                 <span>{% trans "Leadership" %}</span><span>{% trans "Organization" %}</span><span>{% trans "Planning" %}</span>
@@ -60,62 +47,23 @@
                 <img src="{% static 'images/team/maeen.jpg' %}" class="team-img" alt="{% trans 'Maeen (Al-Afandi)' %}">
             </div>
             <h2 class="team-name">{% trans "Maeen (Al-Afandi)" %}</h2>
-            <p class="team-role">{% trans "Professional Programmer" %}</p>
-            <p class="team-bio">{% trans "Specialized in building advanced software solutions." %}</p>
+            <p class="team-role">{% trans "Programming Lead" %}</p>
+            <p class="team-bio">{% trans "Specialized in building advanced software solutions. Beloved by the team and the master of championships. The smile that brings joy to the team and the light in the darkness." %}</p>
             <div class="team-skills">
                 <span>{% trans "Programming" %}</span><span>{% trans "Analysis" %}</span><span>{% trans "Innovation" %}</span>
             </div>
         </div>
 
-        <!-- Mohammed Dawas's Card -->
+        <!-- Mohammed Salah's Card -->
         <div class="team-card">
             <div class="team-image-container">
-                <img src="{% static 'images/team/mohammed-dawas.jpg' %}" class="team-img" alt="{% trans 'Mohammed Dawas' %}">
+                <img src="{% static 'images/team/mohammed.jpeg' %}" class="team-img" alt="{% trans 'Mohammed Salah' %}">
             </div>
-            <h2 class="team-name">{% trans "Mohammed Dawas" %}</h2>
-            <p class="team-role">{% trans "Build & Programming Department" %}</p>
-            <p class="team-bio">{% trans "Contributes to construction and programming to ensure system integration." %}</p>
+            <h2 class="team-name">{% trans "Mohammed Salah" %}</h2>
+            <p class="team-role">{% trans "Programming" %}</p>
+            <p class="team-bio">{% trans "An expert programmer leading software development and technical problem-solving. A top-tier software specialist who contributed to building this website." %}</p>
             <div class="team-skills">
-                <span>{% trans "Design" %}</span><span>{% trans "Programming" %}</span><span>{% trans "Implementation" %}</span>
-            </div>
-        </div>
-
-        <!-- Ali Nasser's Card -->
-        <div class="team-card">
-            <div class="team-image-container">
-                <img src="{% static 'images/team/ali-nasser.jpg' %}" class="team-img" alt="{% trans 'Ali Nasser' %}">
-            </div>
-            <h2 class="team-name">{% trans "Ali Nasser" %}</h2>
-            <p class="team-role">{% trans "Build Department" %}</p>
-            <p class="team-bio">{% trans "Focuses on assembling components with high precision." %}</p>
-            <div class="team-skills">
-                <span>{% trans "Assembly" %}</span><span>{% trans "Testing" %}</span><span>{% trans "Execution" %}</span>
-            </div>
-        </div>
-
-        <!-- Ayoub's Card -->
-        <div class="team-card">
-            <div class="team-image-container">
-                <img src="{% static 'images/team/ayoub.jpg' %}" class="team-img" alt="{% trans 'Ayoub' %}">
-            </div>
-            <h2 class="team-name">{% trans "Ayoub" %}</h2>
-            <p class="team-role">{% trans "Build Department" %}</p>
-            <p class="team-bio">{% trans "Supports the build team in structure and component preparation." %}</p>
-            <div class="team-skills">
-                <span>{% trans "Build" %}</span><span>{% trans "Precision" %}</span><span>{% trans "Teamwork" %}</span>
-            </div>
-        </div>
-
-        <!-- Ahmed Bosifi's Card -->
-        <div class="team-card">
-            <div class="team-image-container">
-                <img src="{% static 'images/team/ahmed-bosifi.jpg' %}" class="team-img" alt="{% trans 'Ahmed Bosifi' %}">
-            </div>
-            <h2 class="team-name">{% trans "Ahmed Bosifi" %}</h2>
-            <p class="team-role">{% trans "Professional Python Programmer" %}</p>
-            <p class="team-bio">{% trans "Builds robust software solutions using Python." %}</p>
-            <div class="team-skills">
-                <span>{% trans "Python" %}</span><span>{% trans "Automation" %}</span><span>{% trans "Algorithms" %}</span>
+                <span>{% trans "Python" %}</span><span>{% trans "Web Development" %}</span><span>{% trans "Problem Solving" %}</span>
             </div>
         </div>
 
@@ -125,10 +73,114 @@
                 <img src="{% static 'images/team/doaa (2).jpg' %}" class="team-img" alt="{% trans 'Doaa' %}">
             </div>
             <h2 class="team-name">{% trans "Doaa" %}</h2>
-            <p class="team-role">{% trans "Build Department" %}</p>
+            <p class="team-role">{% trans "Build Lead" %}</p>
             <p class="team-bio">{% trans "An active member in the build department with strong execution." %}</p>
             <div class="team-skills">
                 <span>{% trans "Execution" %}</span><span>{% trans "Coordination" %}</span><span>{% trans "Commitment" %}</span>
+            </div>
+        </div>
+
+        <!-- Mohammed Dawas's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/mohammed-dawas.jpg' %}" class="team-img" alt="{% trans 'Mohammed Dawas' %}">
+            </div>
+            <h2 class="team-name">{% trans "Mohammed Dawas" %}</h2>
+            <p class="team-role">{% trans "Programming & Build" %}</p>
+            <p class="team-bio">{% trans "Contributes to construction and programming to ensure system integration." %}</p>
+            <div class="team-skills">
+                <span>{% trans "Design" %}</span><span>{% trans "Programming" %}</span><span>{% trans "Implementation" %}</span>
+            </div>
+        </div>
+
+        <!-- Ahmed Bosifi's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/ahmed-bosifi.jpg' %}" class="team-img" alt="{% trans 'Ahmed Bosifi' %}">
+            </div>
+            <h2 class="team-name">{% trans "Ahmed Bosifi" %}</h2>
+            <p class="team-role">{% trans "Programming" %}</p>
+            <p class="team-bio">{% trans "Builds robust software solutions using Python. The sleeping wolf who smells championships and devours them without mercy." %}</p>
+            <div class="team-skills">
+                <span>{% trans "Python" %}</span><span>{% trans "Automation" %}</span><span>{% trans "Algorithms" %}</span>
+            </div>
+        </div>
+
+        <!-- Ayoub's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/ayoub.jpg' %}" class="team-img team-img--top" alt="{% trans 'Ayoub' %}">
+            </div>
+            <h2 class="team-name">{% trans "Ayoub" %}</h2>
+            <p class="team-role">{% trans "Build" %}</p>
+            <p class="team-bio">{% trans "Supports the build team in structure and component preparation. A build legend who never sleeps; he forges victory from effort. :)" %}</p>
+            <div class="team-skills">
+                <span>{% trans "Build" %}</span><span>{% trans "Precision" %}</span><span>{% trans "Teamwork" %}</span>
+            </div>
+        </div>
+
+        <!-- Ali Nasser's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/ali-nasser.jpg' %}" class="team-img" alt="{% trans 'Ali Nasser' %}">
+            </div>
+            <h2 class="team-name">{% trans "Ali Nasser" %}</h2>
+            <p class="team-role">{% trans "Build" %}</p>
+            <p class="team-bio">{% trans "Focuses on assembling components with high precision." %}</p>
+            <div class="team-skills">
+                <span>{% trans "Assembly" %}</span><span>{% trans "Testing" %}</span><span>{% trans "Execution" %}</span>
+            </div>
+        </div>
+
+        <!-- Noor's Card (No Image) -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/noor-placeholder.svg' %}" class="team-img" alt="{% trans 'Noor' %}">
+            </div>
+            <h2 class="team-name">{% trans "Noor" %}</h2>
+            <p class="team-role">{% trans "Media" %}</p>
+            <p class="team-bio">{% trans "Supports the team with a collaborative spirit." %}</p>
+            <div class="team-skills">
+                <span>{% trans "Collaboration" %}</span><span>{% trans "Commitment" %}</span><span>{% trans "Adaptability" %}</span>
+            </div>
+        </div>
+
+        <!-- Alzyani's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/ALZYANI.jpg' %}" class="team-img" alt="{% trans 'Alzyani' %}">
+            </div>
+            <h2 class="team-name">{% trans "Alzyani" %}</h2>
+            <p class="team-role">{% trans "Media" %}</p>
+            <p class="team-bio">{% trans "Documents team activities with a professional eye." %}</p>
+            <div class="team-skills">
+                <span>{% trans "Photography" %}</span><span>{% trans "Lighting" %}</span><span>{% trans "Editing" %}</span>
+            </div>
+        </div>
+
+        <!-- Anas's Card -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/anas.jpg' %}" class="team-img" alt="{% trans 'Anas' %}">
+            </div>
+            <h2 class="team-name">{% trans "Anas" %}</h2>
+            <p class="team-role">{% trans "Media" %}</p>
+            <p class="team-bio">{% trans "Supports the team with a collaborative spirit." %}</p>
+            <div class="team-skills">
+                <span>{% trans "Creativity" %}</span><span>{% trans "Commitment" %}</span><span>{% trans "Teamwork" %}</span>
+            </div>
+        </div>
+
+        <!-- Al-Maqrahi's Card (No Image) -->
+        <div class="team-card">
+            <div class="team-image-container">
+                <img src="{% static 'images/team/maqrahi.jpg' %}" class="team-img" alt="{% trans 'Al-Maqrahi (Son of the South)' %}">
+            </div>
+            <h2 class="team-name">{% trans "Al-Maqrahi (Son of the South)" %}</h2>
+            <p class="team-role">{% trans "Public Relations" %}</p>
+            <p class="team-bio">{% trans "Contributes to the team's progress with positive energy." %}</p>
+            <div class="team-skills">
+                <span>{% trans "Teamwork" %}</span><span>{% trans "Enthusiasm" %}</span><span>{% trans "Responsibility" %}</span>
             </div>
         </div>
 
@@ -138,8 +190,8 @@
                 <img src="{% static 'images/team/Arzaq.jpg' %}" class="team-img" alt="{% trans 'Arzaq' %}">
             </div>
             <h2 class="team-name">{% trans "Arzaq" %}</h2>
-            <p class="team-role">{% trans "Creative Media Department" %}</p>
-            <p class="team-bio">{% trans "Creates media content and shapes the team’s visual presence." %}</p>
+            <p class="team-role">{% trans "Media & Public Relations" %}</p>
+            <p class="team-bio">{% trans "Creates media content and shapes the team's visual presence." %}</p>
             <div class="team-skills">
                 <span>{% trans "Design" %}</span><span>{% trans "Editing" %}</span><span>{% trans "Creativity" %}</span>
             </div>
@@ -151,49 +203,10 @@
                 <img src="{% static 'images/team/Ozzie.jpg' %}" class="team-img" alt="{% trans 'Ozzie' %}">
             </div>
             <h2 class="team-name">{% trans "Ozzie" %}</h2>
-            <p class="team-role">{% trans "Role to be confirmed" %}</p>
-            <p class="team-bio">{% trans "Details for this member will be updated soon." %}</p>
+            <p class="team-role">{% trans "Team Mascot" %}</p>
+            <p class="team-bio">{% trans "The calm team cat, cared for even more than the robot. :)" %}</p>
             <div class="team-skills">
-                <span>{% trans "Coming" %}</span><span>{% trans "Soon" %}</span><span>{% trans "..." %}</span>
-            </div>
-        </div>
-
-        <!-- Alzyani's Card -->
-        <div class="team-card">
-            <div class="team-image-container">
-                <img src="{% static 'images/team/ALZYANI.jpg' %}" class="team-img" alt="{% trans 'Alzyani' %}">
-            </div>
-            <h2 class="team-name">{% trans "Alzyani" %}</h2>
-            <p class="team-role">{% trans "Team Photographer" %}</p>
-            <p class="team-bio">{% trans "Documents team activities with a professional eye." %}</p>
-            <div class="team-skills">
-                <span>{% trans "Photography" %}</span><span>{% trans "Lighting" %}</span><span>{% trans "Editing" %}</span>
-            </div>
-        </div>
-
-        <!-- Noor's Card (No Image) -->
-        <div class="team-card">
-            <div class="team-image-container">
-                <img src="{% static 'images/team/noor-placeholder.svg' %}" class="team-img" alt="{% trans 'Noor' %}">
-            </div>
-            <h2 class="team-name">{% trans "Noor" %}</h2>
-            <p class="team-role">{% trans "Team Member" %}</p>
-            <p class="team-bio">{% trans "Supports the team with a collaborative spirit." %}</p>
-            <div class="team-skills">
-                <span>{% trans "Collaboration" %}</span><span>{% trans "Commitment" %}</span><span>{% trans "Adaptability" %}</span>
-            </div>
-        </div>
-
-        <!-- Al-Maqrahi's Card (No Image) -->
-        <div class="team-card">
-            <div class="team-image-container">
-                <img src="{% static 'images/team/maqrahi-placeholder.svg' %}" class="team-img" alt="{% trans 'Al-Maqrahi (Son of the South)' %}">
-            </div>
-            <h2 class="team-name">{% trans "Al-Maqrahi (Son of the South)" %}</h2>
-            <p class="team-role">{% trans "Team Member" %}</p>
-            <p class="team-bio">{% trans "Contributes to the team’s progress with positive energy." %}</p>
-            <div class="team-skills">
-                <span>{% trans "Teamwork" %}</span><span>{% trans "Enthusiasm" %}</span><span>{% trans "Responsibility" %}</span>
+                <span>{% trans "Calm" %}</span><span>{% trans "Friendly" %}</span><span>{% trans "Beloved" %}</span>
             </div>
         </div>
     </div>
